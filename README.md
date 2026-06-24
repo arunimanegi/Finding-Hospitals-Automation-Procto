@@ -35,7 +35,7 @@ This project covers advanced web automation scenarios, including:
 ---
 
 ## 🛠️ Tech Stack & Prerequisites
-* **Language:** Java / Python / C#
-* **Framework:** Selenium WebDriver / Playwright
-* **Test Runner:** TestNG / JUnit / PyTest
+* **Language:** Java 
+* **Framework:** Selenium WebDriver
+* **Test Runner:** TestNG / JUnit 
 * **Design Pattern:** Page Object Model (POM) recommended
