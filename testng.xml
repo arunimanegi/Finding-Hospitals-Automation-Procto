@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Practo Regression Suite" verbose="1">
+
+	<!-- preserve-order="true" at the <test> level ensures classes run in the
+	order listed -->
+	<test name="End-to-End Flow" preserve-order="true">
+		<classes>
+
+			<!-- 1. Start at the Home Page -->
+			<class name="tests.HomePageTest" />
+
+			<!-- 2. Handle Login/Authentication -->
+			<class name="tests.LoginPageTest" />
+
+			<!-- 3. Test Hospital Search and Data -->
+			<class name="tests.HospitalPageTest" />
+
+			<!-- 4. Test Doctor Search and Filters -->
+			<class name="tests.DoctorsPageTest" />
+
+			<!-- 5. Test Lab Tests and Diagnostics -->
+			<class name="tests.DiagnosticsPageTest" />
+
+			<!-- 6. Test Corporate Wellness Form -->
+			<class name="tests.CorporateWellnessTest" />
+
+		</classes>
+	</test>
+
+</suite>
